@@ -1,7 +1,14 @@
 var read = require('readline-sync');
 
 // var read = require('readline-sync');
-console.log("How well do you know me? ")
+console.log("Lets play the quiz!! How well do you know me? ")
+console.log("------------")
+
+var username=read.question("Please enter your name buddy? ")
+console.log("------------")
+console.log("Okay! "+username+" Here comes the questions!")
+
+console.log("------------")
 
 // var question1=
 // {
@@ -35,23 +42,23 @@ var highscores=
 var questions =
   [
     {
-      question: "What is your name? ",
-      answer: "krishna"
+      question: "What do i work? ",
+      answer: "genpact"
     },
     {
-      question: "Where do you live? ",
+      question: "Where do i live? ",
       answer: "jpnagar"
     },
     {
-      question: "What is your favourite food? ",
+      question: "What is my favourite food? ",
       answer: "puliyogare"
     },
     {
-      question: "What is your favourite sport? ",
+      question: "What is my favourite sport? ",
       answer: "tennis"
     },
     {
-      question: "What is your favourite getaway? ",
+      question: "What is my favourite getaway? ",
       answer: "mountains"
     }
     
